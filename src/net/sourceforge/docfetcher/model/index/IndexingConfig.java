@@ -61,7 +61,7 @@ public class IndexingConfig implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	private static final List<String> defaultZipExtensions = Arrays.asList("zip", "jar");
-	private static final List<String> defaultTextExtensions = Arrays.asList("txt", "java", "cpp", "py");
+	private static final List<String> defaultTextExtensions = Arrays.asList("txt", "java", "cpp", "py", "srt");
 	private static final List<PatternAction> defaultPatternActions = Arrays.asList(
 		new PatternAction(".*\\.class"),
 		new PatternAction(".*\\.pyc"));
