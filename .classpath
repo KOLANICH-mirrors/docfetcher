@@ -16,7 +16,6 @@
 	<classpathentry kind="lib" path="lib/commons-logging/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="lib/guava/guava-12.0.jar" sourcepath="lib/guava/guava-12.0-sources.jar"/>
 	<classpathentry kind="lib" path="lib/J7zip/J7zip_4.43_alpha2.jar" sourcepath="lib/J7zip/J7zip_4.43_alpha2_src.zip"/>
-	<classpathentry kind="lib" path="lib/java-libpst/java-libpst-0.8.1.jar" sourcepath="lib/java-libpst/java-libpst-0.8.1-src-stripped.zip"/>
 	<classpathentry kind="lib" path="lib/javolution/javolution-5.5.1.jar" sourcepath="lib/javolution/javolution-5.5.1-sources.jar"/>
 	<classpathentry kind="lib" path="lib/jericho-html/jericho-html-3.4.jar" sourcepath="lib/jericho-html/jericho-html-3.4-src.zip"/>
 	<classpathentry kind="lib" path="lib/jexcelapi/jexcelapi-2.6.12.jar" sourcepath="lib/jexcelapi/jexcelapi-2.6.12-src.zip"/>
@@ -71,5 +70,6 @@
 	<classpathentry kind="lib" path="lib/pdfbox/fontbox-2.0.13.jar"/>
 	<classpathentry kind="lib" path="lib/pdfbox/pdfbox-2.0.13.jar"/>
 	<classpathentry kind="lib" path="lib/pdfbox/xmpbox-2.0.13.jar"/>
+	<classpathentry kind="lib" path="lib/java-libpst/java-libpst-0.9.5-SNAPSHOT.jar" sourcepath="lib/java-libpst/java-libpst-0.9.5-SNAPSHOT-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
