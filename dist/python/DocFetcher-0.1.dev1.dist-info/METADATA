@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: DocFetcher
+Version: 0.1.dev1
+Summary: Python bindings to DocFetcher
+Home-page: https://sourceforge.net/p/docfetcher/code/ci/master/tree/python/
+Author: Tran Nam Quang
+License: EPL-2.0
+Keywords: docfetcher,search,lucene
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: Eclipse Public License 2.0 (EPL-2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Requires-Dist: JAbs
+
+DocFetcher.py
+=============
+
+Python bindings to DocFetcher.
+
+
+Disclaimer
+----------
+For your convenience files in the original repo are a ready-to-use (no installation is required, no package downloads is required, one can test it right from the dir) distribution of DocFetcher python bindings with all the dependencies bundled. This was a requirement of DocFetcher maintainer. Thoгgh it is highly disrecommended to use this package this way. It is recommended to build an own wheel from sources and install it, and install the most recent versions of all the dependencies (JPype, if needed, JAbs and their dependencies) from other sources (their authors' git repos, your distro packages, conda packages, pypi...).
+
+CLI tool
+--------
+
+The package also contains a CLI tool as a live example how to use the bindings.
+
+
+

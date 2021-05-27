@@ -61,7 +61,6 @@ public final class ProgramConf {
 		SaveSettings (true),
 		TextPreviewEnabled (true),
 		PdfPreviewVisualOrder (true),
-		PythonApiEnabled (false),
 		ShowPathsDuringIndexing (false),
 		WriteIndexingLog (false),
 		HotkeyEnabled (false),
@@ -91,7 +90,6 @@ public final class ProgramConf {
 		PatternTableHeight (4, 1),
 		UnpackCacheCapacity (20, 1),
 		InitialSorting (0),
-		PythonApiPort (28834),
 		;
 
 		private int value;

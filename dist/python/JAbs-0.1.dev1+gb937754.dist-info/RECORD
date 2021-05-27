@@ -1,0 +1,14 @@
+JAbs/JVMInitializer.py,sha256=9pl5LSNcGGW-y-GUtI-mlBpLWEv8f-LvLxwk6HhEar4,3874
+JAbs/__init__.py,sha256=ker2sBCnTF5xtm-5c517NnNrV-nAKKJQ3OvkI3AJZDA,423
+JAbs/impls/GraalVM.py,sha256=SnN-l8SwTDI_Rxa3s_XRPxwltkwc0K3T1b5f8Pk627E,563
+JAbs/impls/JPype.py,sha256=MFo-jhxTisAQkEHS8ddb0ecIKD5GPgsr_780vUmS5gM,4849
+JAbs/impls/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+JAbs/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+JAbs/utils/getClasses.py,sha256=afYNnzJdXGvHJqXquLd3wbkO2dIKYreLIMnruFhxsGg,500
+JAbs/utils/javaPropsInASeparateProcess.py,sha256=jeyZC9xDO4nQ74SsZ568MHFBVhrdfXAxc7oSDEuEsZ8,1802
+JAbs/utils/pathListTools.py,sha256=ueE3-ypJqVrWFmtxAbG28fv5Xvd9z0uHW2dc47nl-oU,1265
+JAbs-0.1.dev1+gb937754.dist-info/METADATA,sha256=CXNasrxAnvK4BBvjQoK9ZUs6WahzFCnF3GjZVdUTVHA,1780
+JAbs-0.1.dev1+gb937754.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+JAbs-0.1.dev1+gb937754.dist-info/top_level.txt,sha256=rDoqi2f40ntmVPhEIA-DlmWbk6WH9Qzkl6JKf63f65Y,5
+JAbs-0.1.dev1+gb937754.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+JAbs-0.1.dev1+gb937754.dist-info/RECORD,,

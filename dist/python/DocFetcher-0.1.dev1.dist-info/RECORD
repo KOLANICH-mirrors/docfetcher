@@ -1,0 +1,10 @@
+DocFetcher/__init__.py,sha256=Wncp_bdm39cduXcnP66v2ebSf-iveCRCByZGKNi1aBI,3564
+DocFetcher/__main__.py,sha256=WwVYvwRagMbln70mwq1TnE514s4tcjYlLjMfC2gfljY,1184
+DocFetcher/constants.py,sha256=J1ZxyBy6hhX7U3T6E-2RbYVbdmPC4R1TteJdWfxSJUU,436
+DocFetcher/defaults.py,sha256=2ggfI-mGwYSgcuLO1nW0nsvIA0lyxEM9GU5A2oz7TOE,269
+DocFetcher/dir_managers.py,sha256=ZJIYkOJUyn4XMu_JFSg0X8T39CxLdeEQQN9sEIkeKpc,1936
+DocFetcher-0.1.dev1.dist-info/METADATA,sha256=fsKlr5eYe2uDir2qGUUJmZ_88GNBDBraprHX7MVKoGk,1632
+DocFetcher-0.1.dev1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+DocFetcher-0.1.dev1.dist-info/top_level.txt,sha256=0oQ2tjuDSeoBkroURQlO4XSnn9BW1ocg-haTAC8UkNU,11
+DocFetcher-0.1.dev1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+DocFetcher-0.1.dev1.dist-info/RECORD,,

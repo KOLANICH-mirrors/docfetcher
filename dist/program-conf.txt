@@ -198,15 +198,7 @@ TextPreviewEnabled = true
 
 
 #===============================================================================
-#	Python API - UNSAFE!
+#	Python API
 #===============================================================================
 
-# Whether the DocFetcher instance allows scripting based on Py4J. For example
-# usage, see the file search.py. This setting is disabled by default for
-# security reasons: Enabling it will make DocFetcher run a TCP server on
-# localhost, which is subject to both local and (potential) remote code
-# execution exploits.
-PythonApiEnabled = false
-
-# The port on which the DocFetcher instance allows scripting.
-PythonApiPort = 28834
+# PythonApiEnabled and PythonApiPort have been removed, because we no longer use Py4J. Instead we use JPype, which doesn't need them and also resolved the security issues and improved efficiency.

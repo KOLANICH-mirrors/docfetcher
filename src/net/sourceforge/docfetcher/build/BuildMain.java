@@ -275,10 +275,7 @@ public final class BuildMain {
 			"dist/Readme.txt", releaseDir + "/Readme.txt", LineSep.WINDOWS);
 		
 		// Scripting support
-		U.copyDir("dist/py4j", releaseDir + "/py4j");
-		U.copyTextFile(
-			"dist/search.py", releaseDir + "/search.py", LineSep.WINDOWS);
-		makeExecutable("Cannot make search.py executable.", releaseDir + "/search.py");
+		U.copyDir("dist/python", releaseDir + "/python");
 		
 		// Wrap the portable build in a zip archive for deployment
 		if (Util.IS_LINUX || Util.IS_MAC_OS_X) {
@@ -355,10 +352,7 @@ public final class BuildMain {
 				+ "/misc/licenses.zip");
 		
 		// Scripting support
-		U.copyDir("dist/py4j", resourcesDir + "/py4j");
-		U.copyTextFile(
-			"dist/search.py", resourcesDir + "/search.py", LineSep.WINDOWS);
-		makeExecutable("Cannot make search.py executable.", resourcesDir + "/search.py");
+		U.copyDir("dist/python", resourcesDir + "/python");
 		
 		if (Util.IS_MAC_OS_X) {
 			String dmgPath = U.format("build/%s-%s.dmg", appName, version);

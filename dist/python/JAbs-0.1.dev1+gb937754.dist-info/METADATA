@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: JAbs
+Version: 0.1.dev1+gb937754
+Summary: Abstraction layer around ways to call JVM libs from python
+Home-page: https://github.com/KOLANICH/JAbs.py
+Author: KOLANICH
+License: Unlicense
+Keywords: java,JVM,GraalVM,GraalPython,Scala
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: Public Domain
+Classifier: License :: Public Domain :: Unlicense
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Requires-Dist: JPype1 ; implementation_name == "cpython"
+
+JAbs.py [![Unlicensed work](https://raw.githubusercontent.com/unlicense/unlicense.org/master/static/favicon.png)](https://unlicense.org/)
+=======
+![GitLab Build Status](https://gitlab.com/KOLANICH/pantarei.py/badges/master/pipeline.svg)
+[![TravisCI Build Status](https://travis-ci.org/KOLANICH/pantarei.py.svg?branch=master)](https://travis-ci.org/KOLANICH/pantarei.py)
+![GitLab Coverage](https://gitlab.com/KOLANICH/pantarei.py/badges/master/coverage.svg)
+[![Coveralls Coverage](https://img.shields.io/coveralls/KOLANICH/pantarei.py.svg)](https://coveralls.io/r/KOLANICH/pantarei.py)
+[![Libraries.io Status](https://img.shields.io/librariesio/github/KOLANICH/pantarei.py.svg)](https://libraries.io/github/KOLANICH/pantarei.py)
+
+Just an abstraction layer around various ways to interact to libs for JVM.
+
+Implemented backends
+--------------------
+
+* [JPype](https://github.com/jpype-project/jpype)
+* [GraalPython](https://github.com/oracle/graalpython)
+
+

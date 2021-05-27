@@ -59,7 +59,6 @@ import com.google.common.io.LineReader;
 import com.google.common.io.Resources;
 
 import net.sourceforge.docfetcher.Main;
-import net.sourceforge.docfetcher.Py4jHandler;
 import net.sourceforge.docfetcher.enums.Img;
 import net.sourceforge.docfetcher.enums.Msg;
 import net.sourceforge.docfetcher.enums.ProgramConf;
@@ -353,10 +352,6 @@ public final class Application {
 			statusBar.getLeftPart().setContents(Img.HELP.get(), msg);
 		}
 
-		// Open Py4j Gateway Server
-		if(ProgramConf.Bool.PythonApiEnabled.get())
-            Py4jHandler.openGatewayServer();
-
 		shell.addShellListener(new ShellAdapter() {
 			public void shellClosed(final ShellEvent e) {
 				handleShellClosed(e);
@@ -373,10 +368,6 @@ public final class Application {
 				handleCrash(t);
 			}
 		}
-
-		// Close Py4j Gateway Server
-		if(ProgramConf.Bool.PythonApiEnabled.get())
-			Py4jHandler.shutdownGatewayServer();
 
 		/*
 		 * Do not set this to null; the index registry loading thread must be

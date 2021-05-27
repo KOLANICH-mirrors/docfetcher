@@ -50,7 +50,6 @@
 	<classpathentry kind="lib" path="lib/poi/poi-ooxml-3.17.jar"/>
 	<classpathentry kind="lib" path="lib/poi/poi-ooxml-schemas-3.17.jar"/>
 	<classpathentry kind="lib" path="lib/poi/poi-scratchpad-3.17.jar"/>
-	<classpathentry kind="lib" path="lib/py4j/py4j0.10.7-py3.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j/slf4j-nop-1.6.1.jar"/>
 	<classpathentry kind="lib" path="lib/truezip/truezip-driver-file-7.7.7.jar" sourcepath="lib/truezip/truezip-driver-file-7.7.7-sources.jar"/>
