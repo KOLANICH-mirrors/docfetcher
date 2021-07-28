@@ -50,7 +50,7 @@ public abstract class TreeIndex <
 	private final IndexingConfig config;
 	private final F rootFolder;
 	private final long created;
-	@Nullable private final Path fileIndexDirPath;
+	@Nullable public transient Path fileIndexDirPath;
 	@Nullable private transient RAMDirectory ramIndexDir;
 	@Nullable private transient File indexParentDir;
 	

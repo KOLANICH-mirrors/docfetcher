@@ -64,6 +64,8 @@ import net.sourceforge.docfetcher.model.IndexLoadingProblems.OverflowIndex;
 import net.sourceforge.docfetcher.model.index.IndexingQueue;
 import net.sourceforge.docfetcher.model.index.file.FileFactory;
 import net.sourceforge.docfetcher.model.index.outlook.OutlookMailFactory;
+import net.sourceforge.docfetcher.model.Path;
+import net.sourceforge.docfetcher.model.TreeIndex;
 import net.sourceforge.docfetcher.model.search.Searcher;
 import net.sourceforge.docfetcher.util.AppUtil;
 import net.sourceforge.docfetcher.util.CharsetDetectorHelper;
@@ -455,18 +457,20 @@ public final class IndexRegistry {
 		try {
 			FileInputStream fin = new FileInputStream(serFile);
 			FileLock lock = fin.getChannel().lock(0, Long.MAX_VALUE, true);
-			LuceneIndex index;
+			TreeIndex index;
 			try {
 				/*
 				 * Without this BufferedInputStream, there can be noticeable
 				 * performance problems if the index resides on a network drive.
 				 */
 				in = new ObjectInputStream(new BufferedInputStream(fin));
-				index = (LuceneIndex) in.readObject();
+				index = (TreeIndex) in.readObject();
 			}
 			finally {
 				lock.release();
 			}
+
+			index.fileIndexDirPath = new Path(serFile.getParentFile());
 			//If index can be loaded, load the index name from file
 			index.getRootFolder().setDisplayName(loadIndexName(index.getIndexDirPath()));
 			addIndex(index, serFile.lastModified());
